@@ -25,8 +25,7 @@ for(const allSeat of addSeat){
 
         const seatPrice = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[11].childNodes[1].childNodes[7].childNodes[3].childNodes[7].childNodes[5].innerText 
         
-        // console.log(e.target.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.childNodes[11].childNodes[1].childNodes[7].childNodes[3].childNodes[7].childNodes[5].innerText)
-
+        
         const seatEntry = document.getElementById('seat-entry')
         const div =document.createElement('div')
         const p =document.createElement('p')
